@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2.5rem;
+
+    button{
+        margin-right: 1rem;
+    }
+
+    &List {
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        >li {
+            margin-right: 1rem;
+        }
+    }
+
+    &Right {
+        display: flex;
+    }
+}
