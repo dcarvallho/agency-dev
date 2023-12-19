@@ -1,0 +1,11 @@
+@import '../../styles/utils';
+
+.buttonRounded {
+    @include button;
+    border-radius: 1.8rem;
+}
+
+.buttonNoRounded {
+    @include button;
+    border-radius: 5px;
+}

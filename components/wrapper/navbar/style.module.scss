@@ -3,9 +3,13 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 2.5rem;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
 
-    button{
-        margin-right: 1rem;
+    h2 {
+        margin-left: 4rem;
     }
 
     &List {
@@ -13,11 +17,26 @@
         text-decoration: none;
         list-style: none;
         >li {
-            margin-right: 1rem;
+            margin: 0 0.5rem;
         }
     }
 
     &Right {
         display: flex;
+        justify-content: space-around;
+        margin-right: 4rem;
+        gap:2rem;
+    }
+
+    &RightButtons {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        gap: 1rem;
+
+        > Button:nth-child(2) {
+            background-color: green;
+          }
     }
 }

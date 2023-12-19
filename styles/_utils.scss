@@ -1,0 +1,20 @@
+$primaryColor: #ff5200;
+$darkColor: #181920;
+$textColor: #8b8e94;
+$secondaryBg: #e5eaff;
+
+@mixin button {
+    background-color: $primaryColor;
+    color: white;
+    padding: 1rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    //position ou margin top
+
+    &:hover {
+        background-color: transparent;
+        color: white;
+        border: 1px solid $primaryColor;
+    }
+}
