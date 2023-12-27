@@ -13,10 +13,9 @@ const Navbar = () => {
             <li>Serviços</li>
             <li>Contato</li>
           </ul>
-          {/* Separar botões */}
           <div className={style.navbarRightButtons}>
             <Button>ENTRAR</Button>
-            <Button className={style.navbarRegisterButton}>REGISTRAR</Button>
+            <Button>REGISTRAR</Button>
           </div>
         </div>
       </nav>
