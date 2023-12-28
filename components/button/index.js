@@ -19,7 +19,10 @@ const Button = ({ children, noRounded }) => {
 };
 
 Button.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.oneOfType([
+    PropTypes.node,
+    PropTypes.object
+  ]),
   noRounded: PropTypes.bool,
 };
 
