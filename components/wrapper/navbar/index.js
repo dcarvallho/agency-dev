@@ -7,6 +7,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className={style.navbar}>
+        <div className={style.navbarBrand}>
         <div style={{ backgroundColor: 'white' }}>
           <Image
             src="/images/icon-home.png"
@@ -16,6 +17,7 @@ const Navbar = () => {
           />
         </div>
         <h2>Agency</h2>
+        </div>
         <div className={style.navbarRight}>
           <ul className={style.navbarList}>
             <li>Home</li>
