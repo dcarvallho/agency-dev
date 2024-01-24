@@ -5,15 +5,22 @@
         gap: 2rem;
     }
     &StyleCards {
-        border: 1px solid rgb(170, 168, 168);
-        height: 450px;
-        width: 450px;
+        border: 1px solid rgb(224, 224, 224);
+        height: 380px;
+        width: 380px;
         margin: auto;
         text-align: center;
         display: flex;
+        flex-flow: column wrap;
         align-items: center;
         justify-content: center;
+        padding: 1rem;
+
+        > div:first-child {
+            font-weight: bold;
+        }
     }
+
     h1 {
         text-align: center;
     }

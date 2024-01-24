@@ -8,7 +8,10 @@ const Services = () => {
         <h1>O que fazemos?</h1>
         <div className={style.servicesCards}>
             {SERVICES_TYPE.map((types, index) => (
-              <div key={index} className={style.servicesStyleCards}>{types.title}</div>
+              <div className={style.servicesStyleCards}>
+                <div key={index}>{types.title}</div>
+                <div key={index}>{types.description}</div>
+              </div>
             ))}
         </div>
     </div>
