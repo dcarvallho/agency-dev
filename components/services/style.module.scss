@@ -1,5 +1,9 @@
 .services {
     &Cards {
+        @media (max-width: 1024px) {
+            grid-template-columns: 1fr;
+        }
+
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 2rem;
